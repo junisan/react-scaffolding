@@ -1,0 +1,42 @@
+/* open-sans-regular - latin-ext */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""), url("../assets/fonts/open-sans-v18-latin-ext-regular.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/open-sans-v18-latin-ext-regular.woff")
+            format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin-ext */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../assets/fonts/open-sans-v18-latin-ext-700.woff2") format("woff2"),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../assets/fonts/open-sans-v18-latin-ext-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+// Colors
+$primary-color: #007bff;
+$secondary-color: #b37100;
+$white: #fff;
+$grey: #777;
+$black: #444;
+
+$lg: 992px;
+$md: 768px;
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
